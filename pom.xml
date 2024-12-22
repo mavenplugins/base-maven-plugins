@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.github.mavenplugins</groupId>
+    <artifactId>parent-base-maven-plugins</artifactId>
+    <version>2</version>
+  </parent>
+
+  <artifactId>base-maven-plugins</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Abstract Base Maven Plugins</name>
+  <description>Abstract base class(es) for Maven plugins</description>
+  <url>https://github.com/mavenplugins/base-maven-plugins</url>
+  <inceptionYear>2021</inceptionYear>
+
+  <developers>
+    <developer>
+      <id>moffrog</id>
+      <name>Markus Hoffrogge</name>
+      <url>https://github.com/mhoffrog/</url>
+      <organization>mavenplugins</organization>
+      <organizationUrl>https://github.com/mavenplugins/</organizationUrl>
+      <timezone>1</timezone>
+    </developer>
+    <developer>
+      <id>mavenplugins</id>
+      <!-- Let Maven Central Search show 'Public Project' as known contributors tag -->
+      <name>Public Project</name>
+      <url>https://github.com/mavenplugins/base-maven-plugins/graphs/contributors</url>
+      <organization>mavenplugins</organization>
+      <organizationUrl>https://github.com/mavenplugins/</organizationUrl>
+      <timezone>1</timezone>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/mavenplugins/base-maven-plugins.git</connection>
+    <url>https://github.com/mavenplugins/base-maven-plugins</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/mavenplugins/base-maven-plugins/issues</url>
+  </issueManagement>
+
+  <dependencies>
+    <!-- Maven dependencies -->
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+    </dependency>
+  </dependencies>
+
+</project>
