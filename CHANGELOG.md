@@ -33,8 +33,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  
   +-current release version
   |
-  |                   +-URL to this repo                   previous release version tag-+       +-current release version tag
-  |                   |                                                                 |       |
+  |                   +-URL to this repo            previous release version tag-+       +-current release version tag
+  |                   |                                                          |       |
  [major.minor.micro]: https://github.com/mavenplugins/base-maven-plugins/compare/vM.N.u..vM.N.u
 -->
 <!--
@@ -105,4 +105,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 -->
 
 [Unreleased]: https://github.com/mavenplugins/base-maven-plugins/compare/v1.0.1..HEAD
-[2]: https://github.com/mavenplugins/base-maven-plugins/releases/tag/v1.0.1
+[1.0.1]: https://github.com/mavenplugins/base-maven-plugins/releases/tag/v1.0.1
