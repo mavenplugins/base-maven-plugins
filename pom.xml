@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>base-maven-plugins</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Abstract Base Maven Plugins</name>
@@ -39,7 +39,7 @@
   <scm>
     <connection>scm:git:https://github.com/mavenplugins/base-maven-plugins.git</connection>
     <url>https://github.com/mavenplugins/base-maven-plugins</url>
-    <tag>v1.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
