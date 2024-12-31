@@ -76,13 +76,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 <!-- !!! Align version in badge URLs as well !!! -->
-[![1.0.2 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/base-maven-plugins?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=1.0.2)](https://central.sonatype.com/artifact/io.github.mavenplugins/base-maven-plugins/1.0.2)
+[![1.0.3 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/base-maven-plugins?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=1.0.3)](https://central.sonatype.com/artifact/io.github.mavenplugins/base-maven-plugins/1.0.3)
 
 ### Summary
 - TBD
 
 ### 📦 Updates
 - TBD
+
+
+## [1.0.2]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![1.0.2 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/base-maven-plugins?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=1.0.2)](https://central.sonatype.com/artifact/io.github.mavenplugins/base-maven-plugins/1.0.2)
+
+### Summary
+- Refer to parent pom version `io.github.mavenplugins:parent-base-maven-plugins:3`
+
+### 🔒 Security
+- Update reference to parent pom version `io.github.mavenplugins:parent-base-maven-plugins:3`
 
 
 ## [1.0.1]
@@ -104,5 +115,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This is just a dummy placeholder to make the parser of GHCICD/release-notes-from-changelog@v1 happy!
 -->
 
-[Unreleased]: https://github.com/mavenplugins/base-maven-plugins/compare/v1.0.1..HEAD
+[Unreleased]: https://github.com/mavenplugins/base-maven-plugins/compare/v1.0.2..HEAD
+[1.0.2]: https://github.com/mavenplugins/base-maven-plugins/compare/v1.0.1..v1.0.2
 [1.0.1]: https://github.com/mavenplugins/base-maven-plugins/releases/tag/v1.0.1
