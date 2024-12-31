@@ -4,7 +4,7 @@
   <parent>
     <groupId>io.github.mavenplugins</groupId>
     <artifactId>parent-base-maven-plugins</artifactId>
-    <version>2</version>
+    <version>3</version>
   </parent>
 
   <artifactId>base-maven-plugins</artifactId>
@@ -18,7 +18,7 @@
 
   <developers>
     <developer>
-      <id>moffrog</id>
+      <id>mhoffrog</id>
       <name>Markus Hoffrogge</name>
       <url>https://github.com/mhoffrog/</url>
       <organization>mavenplugins</organization>
